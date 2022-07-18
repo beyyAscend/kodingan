@@ -1,0 +1,183 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/jumbotron-second.png);
+    background-size: cover;
+    height: 650px;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 300;
+    font-size: 60px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron .display-4 span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.descontainer{
+    background-color: #f9f9f9;
+    margin: 30px 30px 20px 25px;
+    padding: 30px
+}
+
+/* info panel */
+.info-panel {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    margin-top: -200px;
+    background-color: white;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    margin-left: 4px;
+    text-align: center;
+}
+
+.imgpanel {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+/* about */
+.text-card {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text-card1,
+.text-card2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+
+
+.contactme {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.text-h2 {
+    color: #000000;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.form-group {
+    color: #000000;
+    font-size: 14px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+li.footer-item {
+    list-style: none;
+    font-family: 'Oswald Light';
+    text-transform: uppercase;
+    line-height: 2;
+ }
+ 
+ li.footer-socmed {
+    list-style: none;
+    font-family: 'Oswald Light';
+    text-transform: uppercase;
+    line-height: 2;
+ }
+ 
+ a.footer-link {
+    font-size: 14px;
+    transition: 0.5s;
+ }
+ 
+ a.footer-link:hover {
+    color: #424851;
+    text-decoration: none;
+    transition: 0.5s;
+ }
+ 
+ .icon-inner {
+    padding-top: 1px;
+ }
+ 
+ .footer {
+    background-color: rgb(66, 72, 81);
+     padding: 2.5rem 0;
+ }
+ 
+ h2 {
+    font-size: 16px;
+     font-family: 'Oswald Bold';
+     color: #FFFFFF;
+     margin-bottom: 14px;
+     text-transform: uppercase;
+ }
+ 
+ p.p-footer {
+    font-family: 'Oswald Light';
+    font-size: 16px;
+ }
+ .footer ul {
+    padding: 0px;
+  }
+
+/* Dekstop Version */
+@media (min-width: 1000px) {
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    }
+
+    .nav-link {
+        margin-right: 10px;
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #5000ca;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+    }
+
+}
