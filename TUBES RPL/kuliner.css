@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'Water Brush', cursive;
+    font-family: 'Great Vibes', cursive;
     font-size: 32px;
     font-weight: 300;
 }
@@ -37,12 +37,12 @@ body {
 }
 
 /* Dekstop Version */
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
 
     .navbar-brand,
     .nav-link {
-        color: black !important;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     }
 
     .nav-link {
@@ -59,4 +59,9 @@ body {
         padding-bottom: 5px;
         margin-bottom: -8px;
     }
+
+    .jumbotron {
+        margin-top: -75px;
+    }
+
 }
