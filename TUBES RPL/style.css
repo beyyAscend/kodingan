@@ -2,6 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    position: fixed;
+}
 
 .navbar-brand {
     font-family: 'Great Vibes', cursive;
@@ -50,6 +53,11 @@ body {
     width: 700px;
     height: 200px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .left-content {
@@ -82,8 +90,9 @@ body {
 /* image set */
 
 .image-set{
-	width: 130%;
+	width: 90%;
 	margin: 100px auto;
+    padding-left: 80px;
 
 }
 .image-set .image-box{
