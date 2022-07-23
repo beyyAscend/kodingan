@@ -2,9 +2,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-nav {
-    position: fixed;
-}
 
 .navbar-brand {
     font-family: 'Great Vibes', cursive;
@@ -25,7 +22,7 @@ nav {
     margin-top: 200px;
     font-weight: 300;
     font-size: 60px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
 .jumbotron .display-4 span {
@@ -33,6 +30,7 @@ nav {
     font-weight: 600;
     margin: 20px;
 }
+
 
 .descontainer{
     background-color: #f9f9f9;
@@ -192,6 +190,7 @@ nav {
 }
 
 .text-h2 {
+    font-family:'Roboto';
     color: #000000;
     font-weight: 800;
     font-size: 30px;
@@ -206,16 +205,17 @@ nav {
     border-radius: 10px;
 }
 
+
 li.footer-item {
     list-style: none;
-    font-family: 'Oswald Light';
+    font-family: 'Roboto';
     text-transform: uppercase;
     line-height: 2;
  }
  
  li.footer-socmed {
     list-style: none;
-    font-family: 'Oswald Light';
+    font-family: 'Roboto';
     text-transform: uppercase;
     line-height: 2;
  }
@@ -236,8 +236,10 @@ li.footer-item {
  }
  
  .footer {
-    background-color: rgb(66, 72, 81);
+    background-color: #222222;
      padding: 2.5rem 0;
+     font-family: 'Roboto';
+     font-size: small;
  }
  
  h2 {

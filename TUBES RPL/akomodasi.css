@@ -2,32 +2,55 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .navbar-brand {
     font-family: 'Great Vibes', cursive;
     font-size: 32px;
     font-weight: 300;
     color: black;
 }
-
-.display-5 {
-    font-weight: 800;
+.jumbotron {
+    background-image: url(img/bg-destination.jpg);
+    background-size: cover;
+    height: 650px;
 }
 
-.card-text {
-    font-weight: 700;
-    font-size: 16px;
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 300;
+    font-size: 60px;
+    text-shadow: 4px 2px 9px rgba(0, 0, 0, 0.8);
 }
 
-.rounded {
+.jumbotron .display-4 span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.descontainer{
+    background-color: #f9f9f9;
+    margin: 30px 30px 20px 25px;
+    padding: 30px
+}
+
+.dest {
+    text-align: justify;
+}
+
+.card img{
+    height: 170px;
+}
+
+.modal-body img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+     width: 50%;
 
-.card-text1 {
-    color: #6e6e6e;
-    font-weight: 500;
-    font-size: 14px;
 }
 
 .text-card {
@@ -35,42 +58,99 @@ body {
     font-size: 40px;
 }
 
-.text-cardd {
-    font-size: 20px;
-}
-
-.modal-body .mt-3 {
+.profil {
     text-align: justify;
-    color: #000000;
-    font-weight: 500;
+    margin-left: 5px;
 }
 
-.dest {
-    color: #000000;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-}
-
-.lokasi {
-    margin-top: 3px;
-}
-
-.btn {
-    border-radius: 20px;
+.logo {
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* footer */
-.footer {
+.contactme {
+    color: #ffffff;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
+.text-h2 {
+    font-family:'Roboto';
+    color: #000000;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.form-group {
+    color: #000000;
+    font-size: 14px;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+
+li.footer-item {
+    list-style: none;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    line-height: 2;
+ }
+ 
+ li.footer-socmed {
+    list-style: none;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    line-height: 2;
+ }
+ 
+ a.footer-link {
+    font-size: 14px;
+    transition: 0.5s;
+ }
+ 
+ a.footer-link:hover {
+    color: #424851;
+    text-decoration: none;
+    transition: 0.5s;
+ }
+ 
+ .icon-inner {
+    padding-top: 1px;
+ }
+ 
+ .footer {
+    background-color: #222222;
+     padding: 2.5rem 0;
+     font-family: 'Roboto';
+ }
+ 
+ h2 {
+    font-size: 16px;
+     font-family: 'Oswald Bold';
+     color: #FFFFFF;
+     margin-bottom: 14px;
+     text-transform: uppercase;
+ }
+ 
+ p.p-footer {
+    font-family: 'Oswald Light';
+    font-size: 16px;
+ }
+ .footer ul {
+    padding: 0px;
+  }
 
 /* Dekstop Version */
 @media (min-width: 1000px) {
 
     .navbar-brand,
     .nav-link {
-        color:black !important;
+        color: white !important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
     }
 
