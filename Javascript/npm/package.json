@@ -1,5 +1,5 @@
 {
-  "name": "latihan",
+  "name": "npm",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
   "devDependencies": {
-    "get-package-name": "^2.2.0"
+    "package.json": "^2.0.1"
   }
 }
